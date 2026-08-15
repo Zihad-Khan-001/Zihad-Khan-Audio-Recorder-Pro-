@@ -9,6 +9,10 @@
     "ios": {
       "supportsTablet": true
     },
+    "ios": {
+  "supportsTablet": true,
+  "bundleIdentifier": "com.zihadkhan.audiorecorderpro"
+  },
     "android": {
       "package": "com.zihadkhan.audiorecorderpro",
       "adaptiveIcon": {
