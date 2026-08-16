@@ -7,15 +7,11 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zihadkhan.audiorecorderpro"
     },
-    "ios": {
-  "supportsTablet": true,
-  "bundleIdentifier": "com.zihadkhan.audiorecorderpro"
-  },
     "android": {
-      "package": "com.zihadkhan.audiorecorderpro"
-    
+      "package": "com.zihadkhan.audiorecorderpro",
       "predictiveBackGestureEnabled": false
     },
     "web": {
@@ -32,7 +28,6 @@
     "runtimeVersion": {
       "policy": "appVersion"
     },
-  
     "platforms": [
       "ios",
       "android",
