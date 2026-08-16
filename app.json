@@ -14,12 +14,8 @@
   "bundleIdentifier": "com.zihadkhan.audiorecorderpro"
   },
     "android": {
-      "package": "com.zihadkhan.audiorecorderpro",
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-  
-    },
+      "package": "com.zihadkhan.audiorecorderpro"
+    
       "predictiveBackGestureEnabled": false
     },
     "web": {
