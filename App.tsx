@@ -7,8 +7,8 @@ import { NavigationContainer, DefaultTheme, Theme } from '@react-navigation/nati
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { EngineProvider, MeterProvider } from './state/EngineContext';
-import StudioScreen from './screens/StudioScreen';
-import DSPLabScreen from './screens/DSPLabScreen';
+import StudioScreen from './StudioScreen';
+import DSPLabScreen from './DSPLabScreen';
 import { C } from './lib/theme';
 
 const Tab = createBottomTabNavigator();
