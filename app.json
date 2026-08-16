@@ -4,7 +4,7 @@
     "slug": "zihad-khan-audio-recorder-pro-",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./icon.png",
     "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": true,
@@ -12,10 +12,16 @@
     },
     "android": {
       "package": "com.zihadkhan.audiorecorderpro",
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./android-icon-foreground.png",
+        "backgroundImage": "./android-icon-background.png",
+        "monochromeImage": "./android-icon-monochrome.png"
+      }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./favicon.png"
     },
     "extra": {
       "eas": {
